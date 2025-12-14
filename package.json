@@ -1,28 +1,16 @@
-import express from "express";
-import cors from "cors";
-import dotenv from "dotenv";
-import mongoose from "mongoose";
-import helmet from "helmet";
-
-dotenv.config();
-
-const app = express();
-
-// Middlewares
-app.use(cors());
-app.use(express.json());
-app.use(helmet());
-
-// Test Route
-app.get("/", (req, res) => {
-  res.json({
-    success: true,
-    message: "Coaching Backend API is running 🚀"
-  });
-});
-
-// MongoDB Connection
-mongoose
-  .connect(process.env.MONGO_URI)
-  .then(() => console.log("MongoDB Connected"))
-  .catch((err) => console.error(err));
+{
+  "name": "coaching-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    // ... अन्य फ्रंटएंड निर्भरताएँ
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build", // या "vite build"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  // ... अन्य JSON प्रॉपर्टीज़
+}
