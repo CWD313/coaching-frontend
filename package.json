@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
-    // ... अन्य फ्रंटएंड निर्भरताएँ
   },
   "scripts": {
     "start": "react-scripts start",
@@ -12,5 +11,5 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  // ... अन्य JSON प्रॉपर्टीज़
 }
+
