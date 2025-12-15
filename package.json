@@ -8,11 +8,11 @@
     "react-scripts": "5.0.1", 
     "axios": "^1.6.8",
     "react-router-dom": "^6.22.3"
-    // ... अन्य कोई भी फ्रंटएंड निर्भरता
+
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",  // <<< यह लाइन बहुत ज़रूरी है!
+    "build": "react-scripts build", 
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -29,3 +29,4 @@
     ]
   }
 }
+
